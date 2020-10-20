@@ -9,8 +9,6 @@ public class Doctor {
 	private String career;
 	private String image;
 	private String Doctor_pass;
-		
-
 	
 	public Doctor() {
 		// TODO Auto-generated constructor stub
@@ -25,7 +23,6 @@ public class Doctor {
 		this.career=career;
 		this.image=image;
 		this.Doctor_pass=Doctor_pass;
-
 	}
 
 	public String getDoctor_pass() {
@@ -69,9 +66,6 @@ public class Doctor {
 	}
 	public void setCareer(String career) {
 		this.career = career;
-	}
-
-	
-	
+	}	
 	
 }
