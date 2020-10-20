@@ -6,20 +6,15 @@ public class Animal {
 	private String kind;
 	private String etc;
 	
-
 	public Animal() {
 		// TODO Auto-generated constructor stub
 	}
-
-
 
 	public Animal(String Animal_ID, String kind, String etc) {
 		this.Animal_ID=Animal_ID;
 		this.kind=kind;
 		this.etc=etc;
 	}
-
-
 
 	public String getAnimal_ID() {
 		return Animal_ID;
@@ -40,8 +35,4 @@ public class Animal {
 		this.etc = etc;
 	}
 	
-	
-	
-	
-
 }
