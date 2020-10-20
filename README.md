@@ -9,7 +9,7 @@
 - 본인 포함 2명
 
 <개발 환경>
-- Eclipse
+- Eclipse jdk 1.8.0_251
 - Apache Tomcat 8.5
 
 <사용 기술>
