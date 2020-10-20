@@ -13,3 +13,4 @@
 - Html & CSS
 - Javascript & JQuery
 - Bootstrap
+- mySQL
