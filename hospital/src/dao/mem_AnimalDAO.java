@@ -98,7 +98,7 @@ public class mem_AnimalDAO {
 		return ani_memberList;
 	}
 
-//관리자 info		
+// 관리자 info		
 	public ArrayList<mem_Animal> selectAnimalMember(String viewId) {
 
 		PreparedStatement pstmt = null;
@@ -142,7 +142,7 @@ public class mem_AnimalDAO {
 	      return list;
 	   }
 
-	//회원 info
+// 회원 info
 	public ArrayList<mem_Animal> selectAnimalMember2(String viewId) {
 
 		PreparedStatement pstmt = null;
