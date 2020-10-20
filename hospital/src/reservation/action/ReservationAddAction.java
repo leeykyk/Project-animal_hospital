@@ -44,9 +44,9 @@ public class ReservationAddAction implements Action {
 		reservation.setKind(request.getParameter("kind"));
 		
 
-		ReservationJoinService reservationJoinService = new ReservationJoinService(); // 예약 비즈니스 로직을 처리할
+		ReservationJoinService reservationJoinService = new ReservationJoinService();
 																						// ReservationJoinService 객체를 생성
-		joinResult = reservationJoinService.joinReservation(reservation); // 예약 요청을 처리하는 reservation 메서드를 호출
+		joinResult = reservationJoinService.joinReservation(reservation);
 
 		ActionForward forward = null;
 
