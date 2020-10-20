@@ -54,7 +54,7 @@ public class ReservationFrontController extends HttpServlet {
 
 		String RequestURI = request.getRequestURI();
 		String contextPath = request.getContextPath();
-		String command = RequestURI.substring(contextPath.length()); // 전송된 요청을 파악 (60~62행)
+		String command = RequestURI.substring(contextPath.length()); // 전송된 요청을 파악
 		System.out.println(command);
 		ActionForward forward = null; // 각 Action 클래스 객체의 execute 메서드를 실행한 후 반환되는 ActionForward 객체를 저장할 변수를 정의한 부분
 		Action action = null;
