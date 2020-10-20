@@ -31,7 +31,6 @@ public class AnimalDAO {
 		return animalDAO;
 	}
 
-	// DB에 저장되어있는 모든 진료 상품 정보를 반환하는 메서드
 	public ArrayList<Animal> selectAnimalList() {
 
 		PreparedStatement pstmt = null;
@@ -65,7 +64,6 @@ public class AnimalDAO {
 		return animalList;
 	}
 
-	// DB에 저장되어있는 진료 상품 정보 중 파라미터로 전송된 id 값을 가지고있는 진료 상품의 정보를 반환하는 메서드
 	public Animal selectAnimal(String id) {
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -90,7 +88,6 @@ public class AnimalDAO {
 		return animal;
 	}
 
-	// 새로운 진료 상품 정보를 DB에 추가하는 메서드
 	public int insertAnimal(Animal animal) {
 		PreparedStatement pstmt = null;
 		int insertCount = 0;
