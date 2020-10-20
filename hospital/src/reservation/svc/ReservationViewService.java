@@ -16,10 +16,10 @@ public class ReservationViewService {
       Connection con = getConnection();
       ReservationDAO reservationDAO = ReservationDAO.getInstance();
       reservationDAO.setConnection(con);
-      ArrayList<Reservation> list = reservationDAO.selectMemberReservation(viewId); // MemberDAO 클래스에 정의되어있는 selectMember
-                                                            // 메서드를 호출하여 인자로 지정된 아이디를 가진 회원 정보를 MemberBean 객체 형태로 반환받음
+      ArrayList<Reservation> list = reservationDAO.selectMemberReservation(viewId); 
+                                                   
       close(con);
-      return list; // 회원 정보 하나를 반환함
+      return list; 
    }
 
 }
