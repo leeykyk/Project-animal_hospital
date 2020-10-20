@@ -13,17 +13,17 @@ import animal.action.*;
 import member.action.MemberDeleteAction;
 import member.action.MemberJoinAction;
 
-@WebServlet("*.ani") // 앞의 url 경로에 상관없이 확장자가 뒤에 .dog로 끝나는 url 요청이 들어오면 요청 처리를 한다는 설정
+@WebServlet("*.ani") // 앞의 url 경로에 상관없이 확장자가 뒤에 .ani로 끝나는 url 요청이 들어오면 요청 처리를 한다는 설정
 public class AnimalFrontController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		doProcess(request, response); // DogFrontController 서블릿으로 들어오는 모든 요청에서는 doProcess 메서드를 호출한다.
+		doProcess(request, response); // AnimalFrontController 서블릿으로 들어오는 모든 요청에서는 doProcess 메서드를 호출한다.
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		doProcess(request, response); // DogFrontController 서블릿으로 들어오는 모든 요청에서는 doProcess 메서드를 호출한다.
+		doProcess(request, response); // AnimalFrontController 서블릿으로 들어오는 모든 요청에서는 doProcess 메서드를 호출한다.
 	}
 
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response)
