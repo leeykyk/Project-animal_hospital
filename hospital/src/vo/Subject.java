@@ -10,8 +10,7 @@ public class Subject {
 	private String content;
 	private String kind;
 	
-	
-	public Subject(int i, String subject_ID, int price, String subject,  String image, String content, String kind, int j) {
+	public Subject(int i, String subject_ID, int price, String subject, String image, String content, String kind, int j) {
 		this.subject_ID=subject_ID;
 		this.price=price;
 		this.subject=subject;		
@@ -67,5 +66,4 @@ public class Subject {
 		this.kind = kind;
 	}
 
-	
 }
