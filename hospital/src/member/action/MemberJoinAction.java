@@ -11,8 +11,8 @@ import action.Action;
 public class MemberJoinAction implements Action {
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-		MemberBean member = new MemberBean(); // 회원 가입 페이지에서 사용자가 작성한 값들을 속성 값으로 저장할 MemberBean 객체를 생성
-		boolean joinResult = false; // 회원 가입 요청 처리 성공 여부를 저장할 변수
+		MemberBean member = new MemberBean(); 
+		boolean joinResult = false;
 
 		// 회원 가입 페이지에서 전송된 회원의 정보를 member 객체의 속성 값으로 할당
 		member.setMember_ID(request.getParameter("Member_ID"));
