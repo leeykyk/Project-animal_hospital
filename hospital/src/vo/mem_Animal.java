@@ -11,7 +11,6 @@ public class mem_Animal {
 	private String Kind;
 	private String Etc;
 	
-	
 	public mem_Animal(String Animal_ID, String Member_ID, String Animal_name, String Birthday,
 	         String Kind, String Etc) {
 		this.Animal_ID=Animal_ID;
@@ -19,15 +18,12 @@ public class mem_Animal {
 		this.Animal_name=Animal_name;
 		this.Birthday=Birthday;
 		this.Kind=Kind;
-		this.Etc=Etc;
-		
+		this.Etc=Etc;		
 	}
 	
-
 	public mem_Animal() {
 		// TODO Auto-generated constructor stub
 	}
-
 
 	public String getAnimal_ID() {
 		return Animal_ID;
