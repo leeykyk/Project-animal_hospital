@@ -4,12 +4,12 @@
 
 
 <개발 환경>
-Eclipse
-Apache Tomcat 8.5
+- Eclipse
+- Apache Tomcat 8.5
 
 <사용 기술>
-JSP
-JAVA
-Html & CSS
-Javascript & JQuery
-Bootstrap
+- JSP
+- JAVA
+- Html & CSS
+- Javascript & JQuery
+- Bootstrap
