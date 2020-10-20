@@ -13,6 +13,7 @@ public class Reservation {
 	private String animal_name; 
 	private String dateS;
 	private String kind;
+	private Timestamp date;
 	// private String time; 
 	private String etc; 
 	private String phone; 
@@ -31,6 +32,14 @@ public class Reservation {
 
 	public Reservation() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public Timestamp getDate() {
+		return date;
+	}
+
+	public void setDate(Timestamp date) {
+		this.date = date;
 	}
 
 	public String getNum() {
