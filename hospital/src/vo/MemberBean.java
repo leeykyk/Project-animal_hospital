@@ -10,7 +10,6 @@ public class MemberBean {
 	private String etc;
 	private String grade;
 	
-	
 	public String getGrade() {
 		return grade;
 	}
@@ -58,10 +57,6 @@ public class MemberBean {
 	}
 	public void setEtc(String etc) {
 		this.etc = etc;
-	}
+	}	
 	
-	
-	
-}	
-	
-
+}
